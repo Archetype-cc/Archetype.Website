@@ -1,0 +1,208 @@
+body {
+  font-family: "Open sans", arial, helvetica;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+}
+
+.modal {
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  max-height: 100vh;
+  position: fixed;
+}
+
+.x {
+  background: black;
+  color: pink;
+}
+
+.btn.x:hover {
+  background: black;
+  color: white;
+}
+
+.pink {
+  background: #f16a6a;
+}
+
+.black {
+  background: black;
+}
+
+.white {
+  color: white;
+}
+
+.noise {
+  background-image: url('../imgs/noise_black.png');
+}
+
+.pattern {
+  background-image: url('../imgs/animation_leon_2.png');
+  background-repeat: repeat;
+  background-size: 10%;
+  background-blend-mode: multiply;
+  background-color: #f26a69;
+}
+
+.pixels {
+  background-image: url('../imgs/pixels.png');
+}
+
+
+.blocks {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.leons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.apps {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.mini {
+  font-size: 0.6rem;
+}
+
+.image50 {
+  width: 50%;
+}
+
+.image60 {
+  width: 60%;
+}
+
+.btn:hover {
+  background: white;
+  color: #f16a6a;
+  cursor: pointer;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  border: 2px solid #f16a6a;
+}
+
+a {
+  color: #f16a6a;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+img.vh80 {
+    margin-top: -10vh;
+}
+
+.high {
+  color: #f16a6a;
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  .df {
+    flex-direction: column;
+  }
+
+  .intro p {
+    font-size: 1.2rem;
+  }
+
+  .pink {
+    height: 100vh;
+  }
+
+  .df.menu{
+    flex-direction: row;
+  }
+  .menu {
+    padding: 1rem;
+  }
+  .menu p {
+    font-size: 1.2rem;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .more {
+    height: 100%;
+  }
+
+  .more h1 {
+    font-size: 1.2rem;
+  }
+
+  .more ul {
+    font-size: 1.2rem;
+    padding: 0 5rem 0 0;
+    line-height: 2rem;
+  }
+
+  .noisemore {
+    height: 50vh;
+  }
+
+  .why p {
+    font-size: 1.2rem;
+  }
+
+  .why img {
+    height: 50vh;
+  }
+
+  .why {
+    padding: 2rem;
+    margin-bottom: 10rem;
+    height: 100vh;
+  }
+
+  .folcontainer {
+    padding-top: 2rem;
+  }
+
+  .pattern {
+    height: auto;
+  }
+
+  .mini {
+    font-size: 7px;
+  }
+
+
+  .modal {
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    max-height: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+  }
+
+}
