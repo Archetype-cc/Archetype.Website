@@ -13,6 +13,7 @@ builds/
 .env.development.local
 .env.test.local
 .env.production.local
+.dat
 
 npm-debug.log*
 yarn-debug.log*
